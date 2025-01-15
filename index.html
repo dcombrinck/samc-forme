@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questionnaire</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="centered-text">
+        <p>« Comme de bons intendants des diverses grâces de Dieu, mettez-vous chacun au service des autres le don que vous avez reçu. » 1 Pierre 4.10</p>
+    </div>
+    <div><br><br><br></div>
+    <div class="centered-text">
+        <h1>À LA DÉCOUVERTE DE MA</h1>
+    </div>
+    <div class="centered-text super-text">
+        <super-text>F.O.R.M.E.</ss>
+    </div>
+    <div class="centered-text">Ce document permet de découvrir les 5 composantes qui me constituent aujourd’hui, pour mieux servir le Seigneur et les autres.</div>
+    <h1 class="turquoise-text" style="margin: 80px;">EZ 37</h1>
+    
+    <h6 style="text-align: center;">
+        Document adapté de l’église de Saddleback par des paroisses catholiques francophones de France et du Québec.</div>
+    </h6>
+
+    <form id="questionnaire">
+        <h2>COURTE LISTE DES DIFFÉRENTES  FORCES SPIRITUELLES</h2>
+        <p>Après avoir demandé au Seigneur de vous éclairer, lisez la liste ci-dessous et notez chaque don de 1 à 5 en fonction :</p>
+        <ul>
+            <li>de ceux que vous reconnaissez avoir reçus</li>
+            <li>ou que les autres reconnaissent en vous</li>
+        </ul>
+
+    </form>
+    
+    <div id="summary" style="display:none;">
+        <h1>Récapitulatif de synthèse</h1>
+        <h2>Forces spirituelles</h2>
+        <p>1. Je crois avoir reçu les dons spirituels suivants</p>
+        <p id="Forcesspirituelles" class="answer"></p>
+        
+        <p>2. Je pense que j’ai reçu ces dons pour les raisons suivantes :</p>
+        <p id="DonsRaisons" class="answer"></p>
+
+        <h2>Orientation du cœur</h2>
+        <p>1. Les penchants de mon cœur, ou ce qui me motive le plus, c’est :</p>
+        <p id="motive" class="answer"></p>
+
+        <p>2. Les personnes avec lesquelles j’aime travailler (Reportez ici ce que vous avez identifié  à la page 10) :</p>
+        <p id="personnes" class="answer"></p>
+
+        <h2>POUR ALLER PLUS LOIN...</h2>
+        <p>1. Les ministères, les activités de l’Église ou les besoins qui me motivent ou m’interpellent le plus :</p>
+        <p id="ministères" class="answer"></p>
+
+        <p>2. Voici ce que je ferais de ma vie pour Dieu si j’étais sûr de réussir :</p>
+        <p id="action" class="answer"></p>
+
+        <h2>Ressources / compétences</h2>
+        <p>Reportez ici ce que vous avez identifié aux page 11 à 13.</p>
+        <p>1. Domaines dans lesquels j’ai de l’expérience :</p>
+        <p id="Domaines" class="answer"></p>
+
+        <p>2. Je crois avoir les compétences suivantes :</p>
+        <p id="compétences" class="answer"></p>
+
+        <p>3. J’ai enseigné un cours ou un séminaire sur le sujet ou les sujets suivants :</p>
+        <p id="enseigné" class="answer"></p>
+
+        <p>4. Je pense que mon meilleur atout est :</p>
+        <p id="meilleuratout" class="answer"></p>
+
+        <p>5. Mon ministère actuel dans l’Église :</p>
+        <p id="ministèreactuel" class="answer"></p>
+
+        <h2>Manière d’être</h2>
+        <p>1. Ma perception de moi-même</p>
+        <p id="perception"></p>
+
+        <p>2. Mon profil DISC :</p>
+        <p id="disc" class="answer"></p>
+
+        <p>3. Le point de vigilance sur lequel porter mon attention :</p>
+        <p id="vigilance" class="answer"></p>
+
+        <h2>EXPÉRIENCES</h2>
+        <p>Reportez ce que vous avez identifié aux pages 17-18.</p>
+
+        <h2>1. MES EXPÉRIENCES SPIRITUELLES</h2>
+        <p>Voici quand et comment je suis devenu chrétien, ce que cela signifie pour moi et ce que cela a changé dans ma vie :</p>
+        <p id="quand" class="answer"></p>
+
+        <p>Les moments où je me suis senti particulièrement proche de Dieu et les expériences spirituelles qui m’ont marquées :</p>
+        <p id="proche" class="answer"></p>
+
+        <h2>2. MES EXPÉRIENCES DOULOUREUSES</h2>
+        <p>Les problèmes, les blessures, les épreuves desquels j’ai tiré un enseignement :</p>
+        <p id="problèmes" class="answer"></p>
+
+        <h2>3. LES EXPÉRIENCES DE MON ÉDUCATION</h2>
+        <p>Mes matières préférées à l’école :</p>
+        <p id="matière" class="answer"></p>
+
+        <p>Les cours et séminaires qui ont eu une signification pour moi :</p>
+        <p id="cours" class="answer"></p>
+
+        <h2>4. MES EXPÉRIENCES AU TRAVAIL</h2>
+        <p>Les emplois dans lesquels je me suis épanoui :</p>
+        <p id="emplois" class="answer"></p>
+
+        <h2>5. LES EXPÉRIENCES DE MON MINISTÈRE</h2>
+        <p>Ce que j’ai fait dans l’Église jusqu’à maintenant :</p>
+        <p id="eglise" class="answer"></p>
+
+        <h2 class="centered-text">Évaluer avec un membre de l’équipe de responsables dans quel ministère je pourrais le mieux servir.</h2>
+        
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,134 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #40E0D0;
+}
+
+label {
+    display: inline-block;
+    width: 85%; /* Adjust width to fit the input box */
+    margin-top: 10px;
+    color: #40E0D0; /* Turquoise */
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 10%; /* Smaller input box */
+    padding: 5px;
+    margin-left: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%; /* Full width for text areas */
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.description {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#summary {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+}
+
+.centered-text {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #40E0D0; /* Turquoise background */
+    color: white; /* White text */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
+}
+
+.super-text {
+    font-size: 100px;
+}
+
+.turquoise-text {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    max-width: 80%;
+    display: flex;
+    background-color: white;
+    color: #40E0D0; /* Turquoise */
+}
+
+.centered{
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.column {
+    flex: 1; /* Each column takes up equal space */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.answer {
+    background-color: white;
+    margin-left: 20px;
+    font-weight: bold;
+    padding-bottom: 0;
+}
+
+.slider-container {
+    margin: 20px;
+}
+.slider-label {
+    display: block;
+    margin-bottom: 10px;
+}
+.slider-value {
+    margin-top: 10px;
+}
